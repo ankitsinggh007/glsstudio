@@ -13,9 +13,13 @@ PORT=3002
 Server_Secret=<Your_Secret_Key>
 Expire_Cookies=2
 Expire_Token=1d
+
+
 Step 3: Install Dependencies
 In two separate terminal windows, navigate to both the backend and webapp directories, and run the following command in each to install dependencies:
 npm install
+
+
 Step 4: Start the Backend Server
 In the backend directory, start the server:
 npm start
